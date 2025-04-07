@@ -3,11 +3,17 @@
   
  //jsx 
 function HelloWorld(){
-    return(
-        <div>
-           <Hello/> <World/> !
+   // const isvalid=true;
+   const buttonlable = 'Submit';
+    return (
+        /*<div>
+            <Hello/> <World/>
         </div>
-    );
+        */
+        //<span>{isvalid ? 'valid':'not valid'}</span>
+        <button>{buttonlable}</button>
+    );    
+    
 }
 function Hello(){
     return(
