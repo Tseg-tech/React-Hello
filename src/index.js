@@ -2,10 +2,12 @@
  import ReactDOM from 'react-dom/client';
 
  function HelloWorld(){
-    return(
-    <div>
-        Hello World!
-    </div>
+    return React.createElement(
+        'span',
+        'Hello',
+        ' World',
+        '!'
+         
     );
  }
 
@@ -13,7 +15,6 @@
     
         <HelloWorld/>
     
- 
  //document.querySelector('#root')
 );
 
